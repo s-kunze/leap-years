@@ -35,21 +35,21 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>4.7.4</version>
+			<version>4.5.0</version>
 			<scope>test</scope>
 		</dependency>
 		
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>4.7.4</version>
+			<version>4.5.0</version>
 			<scope>test</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-spring</artifactId>
-			<version>4.7.4</version>
+			<version>4.5.0</version>
 			<scope>test</scope>
 		</dependency>
 
