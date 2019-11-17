@@ -4,8 +4,8 @@ Feature: Leap Year
 
   Scenario Outline: All years divisible by 400 ARE leap years
     Given A user
-    When he wants to know if the year "<year>" is a leap year
-    Then it must return "<result>"
+    When he wants to know if the year <year> is a leap year
+    Then it must return <result>
     
   Examples:
     | year | result |
@@ -13,8 +13,8 @@ Feature: Leap Year
 
   Scenario Outline: All years divisible by 100 but not by 400 are NOT leap years
     Given A user
-    When he wants to know if the year "<year>" is a leap year
-    Then it must return "<result>"
+    When he wants to know if the year <year> is a leap year
+    Then it must return <result>
     
   Examples:
     | year | result |
@@ -25,8 +25,8 @@ Feature: Leap Year
 
   Scenario Outline: All years divisible by 4 but not by 100 ARE leap years
     Given A user
-    When he wants to know if the year "<year>" is a leap year
-    Then it must return "<result>"
+    When he wants to know if the year <year> is a leap year
+    Then it must return <result>
     
   Examples:
     | year | result |
@@ -36,8 +36,8 @@ Feature: Leap Year
 
   Scenario Outline: All years not divisible by 4 are NOT leap years
     Given A user
-    When he wants to know if the year "<year>" is a leap year
-    Then it must return "<result>"
+    When he wants to know if the year <year> is a leap year
+    Then it must return <result>
     
   Examples:
     | year | result |
